@@ -321,3 +321,174 @@ footer p{
     text-align: center;
     color: #f2f2f2;
 }
+/*mobile view*/
+@media (max-width: 768px){
+    .logo{
+        position: absolute;
+        left: 30px;
+        top: 50px;
+    }
+    .searcharea{
+        right: 30px;
+    }
+    .searchbox input::placeholder{
+        font-size: 1rem;
+        font-family: poppins;
+    }
+    .section1{
+        position: absolute;
+        left: 15%;
+        top: 30%;
+        transform: translate(-15%, -30%);
+    }
+    .section1 img{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        height: 200px;
+        transform: translate(-10%, -30%);
+    }
+    .section1button{
+        position: absolute;
+        top: 60%;
+        left: 90%;
+        transform: translate(-90%, -50%);
+    }
+    .section1button h1,h2{
+        line-height: 50px;
+        font-size: 2.5rem;
+    }
+    .section1button h1{
+        letter-spacing: 25px;
+    }
+    .section1button h2{
+        letter-spacing: 5px;
+    }
+    .iconarea{
+        position: fixed;
+        left: 20px;
+        top: 60%;
+    }
+    .productSection{
+        width: 85%;
+        display: flex;
+        margin: 30px auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px;
+        margin-top: -150px;
+        position: relative;
+        background-size: 1000px;
+        border-bottom: 10px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin: 50px auto;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        margin-bottom: 200px !important;
+    }
+    .aboutbox{
+        width: 80%;
+        font-family: myriad pro;
+    }
+    .aboutbox img{
+        margin-top: 20%;
+        width: 110%;
+        height: 110%;
+        object-fit: contain;
+    }
+    .noti{
+        width: 95%;
+        height: 200px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 12px;
+    }
+    .noti h1{
+        font-size: 2rem;
+        color: rgb(56, 56, 56);
+        text-align: center;
+    }
+    .notiSearch{
+        width: 90%;
+        background-color: #fff;
+        border-radius: 7% 7% 7% 7% / 50% 50% 50% 50%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 20px;
+        box-shadow: 2px 5px 30px rgba(0, 0, 0, 0.1);
+        margin-top: 15px;
+    }
+
+}
+/*tablet view*/
+@media (min-width: 1000px) and (max-width: 1130px) {
+    .section1button{
+        position: absolute;
+        top: 70%;
+        left: 90%;
+        transform: translate(-90%, -50%);
+    }
+    .section1button h1,h2{
+        line-height: 50px;
+        font-size: 3rem;
+    }
+    .section1button h1{
+        letter-spacing: 28px;
+    }
+    .section1button h2{
+        letter-spacing: 5px;
+    }
+}
+/*mini tablet view*/
+@media (min-width: 769px) and (max-width: 999px) {
+    .section1button{
+        position: absolute;
+        top: 90%;
+        left: 90%;
+        transform: translate(-90%, -50%);
+    }
+    .section1button h1,h2{
+        line-height: 50px;
+        font-size: 3rem;
+    }
+    .section1button h1{
+        letter-spacing: 28px;
+    }
+    .section1button h2{
+        letter-spacing: 5px;
+    }
+    .productSection{
+        top: 250px;
+        width: 85%;
+        display: flex;
+        margin: 30px auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px;
+        margin-top: -150px;
+        position: relative;
+        background-size: 1000px;
+        border-bottom: 10px;
+    }
+    .about{
+        margin-top: 300px !important;
+        margin-bottom: -20px !important;
+    }
+    .noti{
+        margin-top: 250px;
+        margin-bottom: -20px;
+    }
+    .searcharea{
+        right: 40px;
+    }
+}
